@@ -1,0 +1,1518 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11/"
+     xml:base="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-11="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#a_comme_supprieur -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#a_comme_supprieur">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#archigouverneurs"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#centrale_judiciaire"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#cipher_pols"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#marine"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#porte_parole_du_gm"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#dragon_celestes"/>
+        <owl:propertyDisjointWith rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#dirige"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#a_pour_fonction -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#a_pour_fonction">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#sept_grands_corsaire"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#capitaine_de_l_equipage"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#marine_d_elite"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#a_un_accord_avec -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#a_un_accord_avec">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#sept_grands_corsaire"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#gouvernement_mondial"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#acceuille -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#acceuille">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#conseil_des_cinq_etoiles"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#organe_politique"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#aide -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#aide">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#la_piraterie"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#citoyens"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#sujets"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#attaque -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#attaque">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#marine"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#armee_revolutionnaire"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#la_piraterie"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#controle -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#controle">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#dragon_celestes"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#gouvernement_mondial"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#designe -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#designe">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#gouvernement_mondial"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#cipher_pols"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#dirige -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#dirige">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#dragon_celestes"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#conseil_des_cinq_etoiles"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#engage -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#engage">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#gouvernement_mondial"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#sept_grands_corsaire"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#ennemie_de -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#ennemie_de">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#armee_revolutionnaire"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#la_piraterie"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#gouvernement_mondial"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#ennemie_jurer_du -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#ennemie_jurer_du">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#ennemie_jurer_du"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#roi_des_pirates"/>
+            </owl:Restriction>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#espionnage -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#espionnage"/>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#est_plus_fort_que -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#est_plus_fort_que">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#quatre_empreurs"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#marine"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#pirate"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#sept_grands_corsaire"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#fais_la_lois -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#fais_la_lois">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#dragon_celestes"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#gouvernement_mondial"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#fondateur_du -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#fondateur_du">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#dragon_celestes"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#gouvernement_mondial"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#font_parti_de -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#font_parti_de">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#dragon_celestes"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#gouvernement_mondial"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#juge_supreme -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#juge_supreme"/>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#on_un_accord_avec -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#on_un_accord_avec">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#sept_grands_corsaire"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#gouvernement_mondial"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#paie_des_impots -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#paie_des_impots">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#citoyens"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#sujets"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#chefs_d_etats"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#gouverneurs_roi"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#pille -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#pille">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#la_piraterie"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#citoyens"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#sujets"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#protege_par -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#protege_par">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#citoyens"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#sujets"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#armee_revolutionnaire"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#la_piraterie"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#roi_inconteste_des_pirates -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#roi_inconteste_des_pirates">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#sous_la_repression_de -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#sous_la_repression_de">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#citoyens"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#sujets"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#gouvernement_mondial"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#sous_le_protectorat_de -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#sous_le_protectorat_de">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#citoyens"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#sujets"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#amrees"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#chef_des_armees_nationales"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#chefs_d_etats"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#colonels_de_la_marine"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#dragon_celestes"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#gouverneurs_roi"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#marine"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#troupes_de_la_marine"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#verse_une_part_de_butins_a -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#verse_une_part_de_butins_a">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#chasseurs_de_primes"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#sept_grands_corsaire"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#gouvernement_mondial"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#One_piece -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#One_piece"/>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#administrateurs -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#administrateurs">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#a_comme_supprieur"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#directeurs"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#directeurs"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#amiral_en_chef -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#amiral_en_chef">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#dirige"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#commandeur_supreme_des_armees"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#commandeur_supreme_des_armees"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#amiraux -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#amiraux">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#a_comme_supprieur"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#amiral_en_chef"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#amiral_en_chef"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#amrees -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#amrees">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#a_comme_supprieur"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#chef_des_armees_nationales"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#a_comme_supprieur"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#chefs_d_etats"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#chef_des_armees_nationales"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#archigouverneurs -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#archigouverneurs">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#a_comme_supprieur"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#conseil_des_cinq_etoiles"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#organe_politique"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#armee_revolutionnaire -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#armee_revolutionnaire">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#aide"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#sujets"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#attaque"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#gouvernement_mondial"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#One_piece"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#gouvernement_mondial"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#la_piraterie"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#as_de_la_revolution -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#as_de_la_revolution">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#a_comme_supprieur"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#atouts_de_la_revolution"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#atouts_de_la_revolution"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#assemblees_des_nations -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#assemblees_des_nations">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#a_comme_supprieur"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#porte_parole_du_gm"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#dirige"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#porte_parole_du_gm"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#porte_parole_du_gm"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#atouts_de_la_revolution -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#atouts_de_la_revolution">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#a_comme_supprieur"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#conseil_du_dragon"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#conseil_du_dragon"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#brigade_penitentiaire -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#brigade_penitentiaire">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#a_comme_supprieur"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#centrale_judiciaire"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#centrale_judiciaire"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#brigade_scientifique -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#brigade_scientifique">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#a_comme_supprieur"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#amiraux"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#dirige"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#brigade_scientifique"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#amiraux"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#capitaine_de_l_equipage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#capitaine_de_l_equipage">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#dirige"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#equipage_pirate"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#equipage_pirate"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#cavalier_de_la_revolution -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#cavalier_de_la_revolution">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#a_comme_supprieur"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#as_de_la_revolution"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#as_de_la_revolution"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#centrale_judiciaire -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#centrale_judiciaire">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#a_comme_supprieur"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#conseil_des_cinq_etoiles"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#a_comme_supprieur"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#dragon_celestes"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#a_comme_supprieur"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#gouvernement_mondial"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#conseil_des_cinq_etoiles"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#chasseurs_de_primes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#chasseurs_de_primes">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#a_comme_supprieur"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#gouvernement_mondial"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#attaque"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#armee_revolutionnaire"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#attaque"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#la_piraterie"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#One_piece"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#la_piraterie"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#chef_d_equipes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#chef_d_equipes">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#a_comme_supprieur"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#administrateurs"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#administrateurs"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#chef_des_armees_nationales -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#chef_des_armees_nationales">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#a_comme_supprieur"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#chefs_d_etats"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#a_comme_supprieur"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#dragon_celestes"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#chefs_d_etats"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#chefs_d_etats -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#chefs_d_etats">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#a_comme_supprieur"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#assemblees_des_nations"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#assemblees_des_nations"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#cipher_pols -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#cipher_pols">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#a_comme_supprieur"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#conseil_des_cinq_etoiles"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#a_comme_supprieur"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#dragon_celestes"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#a_comme_supprieur"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#gouvernement_mondial"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#conseil_des_cinq_etoiles"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#citoyens -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#citoyens">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#protege_par"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#amrees"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#protege_par"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#equipage_pirate"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#protege_par"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#quatre_empreurs"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#sous_la_repression_de"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#dragon_celestes"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#amrees"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#colonels_d_elite -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#colonels_d_elite">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#a_comme_supprieur"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#major"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#major"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#colonels_de_la_marine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#colonels_de_la_marine">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#a_comme_supprieur"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#gouverneurs_roi"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#gouverneurs_roi"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#commandants_d_elite -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#commandants_d_elite">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#a_comme_supprieur"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#colonels_d_elite"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#colonels_d_elite"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#commandeur_supreme_des_armees -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#commandeur_supreme_des_armees">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#dirige"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#marine"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#marine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#commodores_et_colonels -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#commodores_et_colonels">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#a_comme_supprieur"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#contre_amiraux_et_sous_amiraux"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#contre_amiraux_et_sous_amiraux"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#conseil_des_cinq_etoiles -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#conseil_des_cinq_etoiles">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#a_comme_supprieur"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#conseil_des_cinq_etoiles"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#a_comme_supprieur"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#dragon_celestes"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#dragon_celestes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#conseil_du_dragon -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#conseil_du_dragon">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#a_comme_supprieur"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#guide_de_la_revolution"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#guide_de_la_revolution"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#contre_amiraux_et_sous_amiraux -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#contre_amiraux_et_sous_amiraux">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#a_comme_supprieur"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#vice_amiraux"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#vice_amiraux"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#coordinateurs -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#coordinateurs">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#a_comme_supprieur"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#administrateurs"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#administrateurs"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#directeurs -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#directeurs">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#dirige"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#cipher_pols"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#cipher_pols"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#directeurs_penitentiaire -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#directeurs_penitentiaire">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#a_comme_supprieur"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#directeurs_penitentiaire"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#brigade_penitentiaire"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#dragon_celestes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#dragon_celestes">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#fondateur_du"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#gouvernement_mondial"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#gouvernement_mondial"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#equipage_pirate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#equipage_pirate">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#font_parti_de"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#la_piraterie"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#la_piraterie"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#gouvernement_mondial"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#gardiens -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#gardiens">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#a_comme_supprieur"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#sous_directeurs"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#sous_directeurs"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#gouvernement_mondial -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#gouvernement_mondial">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#One_piece"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#la_piraterie"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#quatre_empreurs"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#gouverneurs_roi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#gouverneurs_roi">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#a_comme_supprieur"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#archigouverneurs"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#archigouverneurs"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#guide_de_la_revolution -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#guide_de_la_revolution">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#fondateur_du"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#armee_revolutionnaire"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#armee_revolutionnaire"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#ingenieurs_et_medecins_generaux -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#ingenieurs_et_medecins_generaux">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#a_comme_supprieur"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#ingenieurs_et_medecins_generaux_des_armees"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#ingenieurs_et_medecins_generaux_des_armees"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#ingenieurs_et_medecins_generaux_des_armees -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#ingenieurs_et_medecins_generaux_des_armees">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#a_comme_supprieur"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#vegapunk"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#vegapunk"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#juge_supreme -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#juge_supreme">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#a_comme_supprieur"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#tribunal_mondial"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#tribunal_mondial"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#juges -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#juges">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#a_comme_supprieur"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#juge_supreme"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#juge_supreme"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#la_piraterie -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#la_piraterie">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#roi_des_pirates"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#attaque"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#gouvernement_mondial"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#attaque"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#marine"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#ennemie_de"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#marine"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#est_plus_fort_que"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#sept_grands_corsaire"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#One_piece"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#major -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#major">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#dirige"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#marine_d_elite"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#marine_d_elite"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#marine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#marine">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#a_comme_supprieur"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#conseil_des_cinq_etoiles"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#a_comme_supprieur"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#dragon_celestes"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#a_comme_supprieur"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#gouvernement_mondial"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#conseil_des_cinq_etoiles"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#marine_d_elite -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#marine_d_elite">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#a_comme_supprieur"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#amiraux"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#amiraux"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#marine_reguliere -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#marine_reguliere">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#a_comme_supprieur"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#amiraux"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#amiraux"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#organe_politique -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#organe_politique">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#a_comme_supprieur"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#conseil_des_cinq_etoiles"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#conseil_des_cinq_etoiles"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#pirate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#pirate">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#a_comme_supprieur"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#capitaine_de_l_equipage"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#capitaine_de_l_equipage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#porte_parole_du_gm -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#porte_parole_du_gm">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#a_comme_supprieur"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#conseil_des_cinq_etoiles"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#a_comme_supprieur"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#organe_politique"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#organe_politique"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#procureurs -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#procureurs">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#a_comme_supprieur"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#juges"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#juges"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#quatre_empreurs -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#quatre_empreurs">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#est_plus_fort_que"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#capitaine_de_l_equipage"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#est_plus_fort_que"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#equipage_pirate"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#est_plus_fort_que"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#sept_grands_corsaire"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#font_parti_de"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#la_piraterie"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#la_piraterie"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#roi_des_pirates -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#roi_des_pirates">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#ennemie_jurer_du"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#gouvernement_mondial"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#One_piece"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#sept_grands_corsaire -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#sept_grands_corsaire">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#a_pour_fonction"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#la_piraterie"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#a_un_accord_avec"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#gouvernement_mondial"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#dirige"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#capitaine_de_l_equipage"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#font_parti_de"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#la_piraterie"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#la_piraterie"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#soldats_de_la_revolution -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#soldats_de_la_revolution">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#a_comme_supprieur"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#valets_de_la_revolution"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#valets_de_la_revolution"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#sous_directeurs -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#sous_directeurs">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#a_comme_supprieur"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#directeurs_penitentiaire"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#directeurs_penitentiaire"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#sujets -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#sujets">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#a_comme_supprieur"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#troupes_de_la_marine"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#aide"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#citoyens"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#troupes_de_la_marine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#tribunal_mondial -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#tribunal_mondial">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#a_comme_supprieur"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#centrale_judiciaire"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#centrale_judiciaire"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#troupes_de_la_marine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#troupes_de_la_marine">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#a_comme_supprieur"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#colonels_de_la_marine"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#colonels_de_la_marine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#valets_de_la_revolution -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#valets_de_la_revolution">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#a_comme_supprieur"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#cavalier_de_la_revolution"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#cavalier_de_la_revolution"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#vegapunk -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#vegapunk">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#a_comme_supprieur"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#amiraux"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#dirige"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#brigade_scientifique"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#brigade_scientifique"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#vice_amiraux -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#vice_amiraux">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#a_comme_supprieur"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#marine_reguliere"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#dirige"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#marine_reguliere"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#marine_reguliere"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#charge_d_espionnage -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#charge_d_espionnage">
+        <rdf:type rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#cipher_pols"/>
+        <untitled-ontology-11:espionnage rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#charge_d_espionnage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#charge_de_capturer_les_pirates -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#charge_de_capturer_les_pirates">
+        <rdf:type rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#chasseurs_de_primes"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#cipher_pols"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#marine"/>
+        <untitled-ontology-11:verse_une_part_de_butins_a rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#gouvernement_mondial"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#charge_de_juger_les_criminels -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#charge_de_juger_les_criminels">
+        <rdf:type rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#tribunal_mondial"/>
+        <untitled-ontology-11:juge_supreme rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#gol_d_roger"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#chasseur_de_pirate -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#chasseur_de_pirate">
+        <rdf:type rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#chasseurs_de_primes"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#cipher_pols -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#cipher_pols">
+        <rdf:type rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#cipher_pols"/>
+        <untitled-ontology-11:a_pour_fonction rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#charge_d_espionnage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#contre_le_gouvernement_mondial -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#contre_le_gouvernement_mondial">
+        <rdf:type rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#armee_revolutionnaire"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#executer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#executer">
+        <rdf:type rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#roi_des_pirates"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#fondateur_du_gouvernement_mondial -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#fondateur_du_gouvernement_mondial">
+        <rdf:type rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#dragon_celestes"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#garde_de_prison -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#garde_de_prison">
+        <rdf:type rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#brigade_penitentiaire"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#gol_d_roger -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#gol_d_roger">
+        <rdf:type rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#roi_des_pirates"/>
+        <untitled-ontology-11:roi_inconteste_des_pirates rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#legende"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#gouvernement_mondial -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#gouvernement_mondial"/>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#independant -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#independant">
+        <rdf:type rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#armee_revolutionnaire"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#la_piraterie"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#juger -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#juger">
+        <rdf:type rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#centrale_judiciaire"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#juge_supreme"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#tribunal_mondial"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#legende -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#legende">
+        <rdf:type rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#roi_des_pirates"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#monkey_d_dragon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#monkey_d_dragon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#guide_de_la_revolution"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#nom_de_l_anime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#nom_de_l_anime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#One_piece"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#regime_administratif -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#regime_administratif">
+        <rdf:type rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#conseil_des_cinq_etoiles"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#superioritee_absolu -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#superioritee_absolu">
+        <rdf:type rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#gouvernement_mondial"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#travail_pour_le_gouvernement_mondial -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#travail_pour_le_gouvernement_mondial">
+        <rdf:type rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#chasseurs_de_primes"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#sept_grands_corsaire"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#tresors_laisse_par_gol_d_roger -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#tresors_laisse_par_gol_d_roger">
+        <rdf:type rdf:resource="http://www.semanticweb.org/muss/ontologies/2023/4/untitled-ontology-11#One_piece"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.24.2023-01-14T21:28:32Z) https://github.com/owlcs/owlapi -->
+
